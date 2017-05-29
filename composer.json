@@ -12,9 +12,7 @@
         }
     ],
     "autoload": {
-        "classmap": [
-            "src/commands"
-        ],
+        
         "psr-4": {
             "Tonmoynandy\\Signme\\": "src"
         }
