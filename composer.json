@@ -11,6 +11,14 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "Tonmoynandy\\Signme\\": "src"
+        }
+    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0"
