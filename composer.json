@@ -2,12 +2,17 @@
     "name": "tonmoynandy/signme",
     "description": "It  is use to set up the general featuers of an admin panel",
     "type": "project",
+    "keywords": ["log","logging"],
+    "homepage": "https://github.com/tonmoynandy/signme",
     "authors": [
         {
             "name": "Tonmoy Nandy",
-            "email": "tonmoy.nandy@gmail.com"
+            "email": "tonmoy.nandy@gmail.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.3.0"
+    },
 }
