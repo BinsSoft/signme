@@ -13,7 +13,7 @@ class SignmeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/Routes/signmeRoutes.php';
+        //include __DIR__.'/Routes/signmeRoutes.php';
         //$this->app->make('Devton\Signme\Controllers\SignmeController');
         //$this->loadViewsFrom(__DIR__.'/views', 'signme');
 
