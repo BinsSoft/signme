@@ -1,6 +1,6 @@
 <?php
 
-namespace Devton\Signme;
+namespace Tonmoynandy\Signme;
 
 use Illuminate\Support\ServiceProvider;
 
