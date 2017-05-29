@@ -1,8 +1,8 @@
 {
     "name": "tonmoynandy/signme",
     "description": "It  is use to set up the general featuers of an admin panel",
-    "type": "composer-plugin",
-    "keywords": ["log","login"],
+   
+    "keywords": ["log","login","laravel","html"],
     "homepage": "https://github.com/tonmoynandy/signme",
     "authors": [
         {
