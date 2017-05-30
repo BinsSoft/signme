@@ -1,5 +1,5 @@
 <h2>Forgot Password</h2>
-<form action="{{ \URL::route('forgot_password_post') }}" method="post" id="signupFrm">
+<form action="{{ \URL::route('forgotpassword_post') }}" method="post" id="signupFrm">
 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 
 <div>

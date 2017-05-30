@@ -1,5 +1,5 @@
 <h2>Sign In</h2>
-<form action="{{ \URL::route('sign_in_post') }}" method="post" id="signinFrm">
+<form action="{{ \URL::route('signin_post') }}" method="post" id="signinFrm">
 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 <div>
 <label>Email</label>
