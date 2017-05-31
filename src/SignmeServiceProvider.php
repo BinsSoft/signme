@@ -36,30 +36,30 @@ class SignmeServiceProvider extends ServiceProvider
     }
 
     public function mapRoute(){
-        
-        Route::get('signin',            
+        $route = Config::get('signme.routes');
+        Route::get($route['login'],            
                         ['as'=>'signin',
                         'uses'=>$this->getRoute("signin")
                         ]);
-        Route::post('signin-action',    
+        Route::post($route['login'].'-action',    
                         ['as'=>'signin_post',
                          'uses'=>$this->getRoute("postSignin")
                         ]);
 
-        Route::get('signup',            
+        Route::get($route['signup'],            
                         ['as'=>'signup',
                          'uses'=>$this->getRoute("signup")
                         ]);
-        Route::post('signup-action',    
+        Route::post($route['signup'].'-action',    
                         ['as'=>'signup_post',
                          'uses'=>$this->getRoute("postSignup")
                         ]);
 
-        Route::get('forgot-password',           
+        Route::get($route['forgotpassword'],           
                         ['as'=>'forgotpassword',
                          'uses'=>$this->getRoute("forgotPassword")
                         ]);
-        Route::post('forgot-password-action',   
+        Route::post($route['forgotpassword'].'-action',   
                         ['as'=>'forgotpassword_post',
                          'uses'=>$this->getRoute("postforgotPassword")
                         ]);

@@ -12,6 +12,7 @@
 <label>Password</label>
 <input type="password" name="password" placeholder="Password" />
 </div>
+
 <input type="submit" name="signup" value="Signup" />
 </div>
 </form>

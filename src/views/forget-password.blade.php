@@ -6,7 +6,6 @@
 <label>Email</label>
 <input type="email" name="email" placeholder="Email"/>
 </div>
-
 <input type="submit" name="send" value="Send" />
 </div>
 </form>
