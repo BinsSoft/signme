@@ -4,7 +4,7 @@ A simple [Laravel 5](http://www.laravel.com) service provider with some basic co
 
 ## Installation
  
-This package is only installed via [composer](http://getcomposer.org) by requiring the `composer require tonmoynandy/signme` package in your project's `composer.json`. (The installation may take a while, because the package requires TCPDF. Sadly its .git folder is very heavy)
+This package is only installed via [composer](http://getcomposer.org) by requiring the `composer require tonmoynandy/signme` package in your project's `composer.json`. (The installation may take a while. Sadly its .git folder is very heavy)
 
 ```json
 {
