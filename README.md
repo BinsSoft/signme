@@ -16,10 +16,11 @@ This package is only installed via [composer](http://getcomposer.org) by requiri
 
 Next, add the service provider to `config/app.php`.
 
+
 ```php
 'providers' => [
     //..
-    'Tonmoynandy\Signme\SignmeServiceProvider',
+    Tonmoynandy\Signme\SignmeServiceProvider::class
 ]
 ```
 
