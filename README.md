@@ -9,7 +9,7 @@ This package is only installed via [composer](http://getcomposer.org) by requiri
 ```json
 {
     "require": {
-        "tonmoynandy/signme": "dev-master"
+        "tonmoynandy/signme": "1.0"
     }
 }
 ```

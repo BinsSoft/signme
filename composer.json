@@ -2,7 +2,7 @@
     "name": "tonmoynandy/signme",
     "description": "Laravel : It  is used to set up the general featuers of an admin panel",
    
-    "keywords": ["log","login","laravel","html"],
+    "keywords": ["log","login","sign up","forget password","change password","laravel","html"],
     "homepage": "https://github.com/tonmoynandy/signme",
     "authors": [
         {
