@@ -5,6 +5,7 @@ return [
 	'routes' => [
 			'login'				=>	'signin',
 			'signup'			=>	'signup',
-			'forgotpassword'	=>	'forgot-password'
+			'forgotpassword'	=>	'forgot-password',
+			'changepassword'	=>	'change-password',
 	]
 ];

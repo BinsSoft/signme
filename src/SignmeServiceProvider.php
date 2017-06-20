@@ -17,7 +17,7 @@ class SignmeServiceProvider extends ServiceProvider
         
         $this->mapRoute();
         $this->publishes([
-            __DIR__.'/views'            => base_path('resources/views/signme'),
+            __DIR__.'/views'            => base_path('resources/views/'),
             __DIR__.'/Controllers'      => base_path('app/Http/Controllers'),
             __DIR__.'/config'           => base_path('config'),
            
@@ -62,6 +62,15 @@ class SignmeServiceProvider extends ServiceProvider
         Route::post($route['forgotpassword'].'-action',   
                         ['as'=>'forgotpassword_post',
                          'uses'=>$this->getRoute("postforgotPassword")
+                        ]);
+
+        Route::get($route['changepassword'],           
+                        ['as'=>'changepassword',
+                         'uses'=>$this->getRoute("changepassword")
+                        ]);
+        Route::post($route['changepassword'].'-action',   
+                        ['as'=>'changepassword_post',
+                         'uses'=>$this->getRoute("postchangepassword")
                         ]);
     }
 
