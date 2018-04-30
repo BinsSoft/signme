@@ -1,9 +1,8 @@
 <?php
 
-namespace Tonmoynandy\Signme;
+namespace binssoft\signme;
 
 use Illuminate\Support\ServiceProvider;
-use Config,Route;
 
 class SignmeServiceProvider extends ServiceProvider
 {
