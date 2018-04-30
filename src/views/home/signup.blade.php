@@ -1,7 +1,14 @@
 @extends('layout.template')
 @section('content')
 <h2>Sign Up</h2>
-<form action="{{ \URL::route('signup_post') }}" method="post" id="signupFrm">
+@if(count($errors)>0)
+  <div class="err-messages">
+   @foreach($errors->all() as $e)  
+   <p>{{$e}}</p>
+   @endforeach
+   </div>
+@endif
+<form action="{{ \URL::route('signup_action') }}" method="post" id="signupFrm">
 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 <div>
 <label>Name</label>

@@ -1,7 +1,10 @@
 @extends('layout.template')
 @section('content')
 <h2>Sign In</h2>
-<form action="{{ \URL::route('signin_post') }}" method="post" id="signinFrm">
+@if(\Session::has('error_msg'))
+	<div class="err-messages">{{ \Session::get('error_msg') }}</div>
+@endif
+<form action="{{ \URL::route('signin_action') }}" method="post" id="signinFrm">
 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
 <div>
 <label>Email</label>
