@@ -9,21 +9,9 @@ This package is only installed via [composer](http://getcomposer.org) by requiri
 ```json
 {
     "require": {
-        "tonmoynandy/signme": "1.1"
+        "tonmoynandy/signme": "<VERSION-NAME>"
     }
 }
-```
-
-Next, add the service provider to `config/app.php`.
-
-
-```php
-'providers' => [
-    //..
-    Tonmoynandy\Signme\SignmeServiceProvider::class
-]
-```
-
 That's it! You're good to go.
 
 ## Configuration
@@ -39,14 +27,10 @@ After proper vendor publish few files are created
 	a) signin.balde.php
 	b) signup.balde.php
 	c) forget-password.balde.php
-3) signme.php in config folder
+3) new routes will be updated in routes/web.php
 
 
 ## Now your all signin process is generated successfully
 
-from config/signme.php file , 
-
-1) you can change the controller name by change the `controller` index
-2) you can change the url by change the `route` index 
 
 
