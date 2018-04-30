@@ -14,7 +14,7 @@
     "autoload": {
         
         "psr-4": {
-            "binssoft\\Signme\\": "src"
+            "binssoft\\signme\\": "src"
         }
     },
     "minimum-stability": "dev",
