@@ -1,9 +1,9 @@
 {
-    "name": "tonmoynandy/signme",
+    "name": "BinsSoft/signme",
     "description": "Laravel : It  is used to set up the general featuers of an admin panel",
    
     "keywords": ["log","login","sign-up","forget-password","change-password","laravel","html"],
-    "homepage": "https://github.com/tonmoynandy/signme",
+    "homepage": "https://github.com/BinsSoft/signme/",
     "authors": [
         {
             "name": "Tonmoy Nandy",
@@ -14,7 +14,7 @@
     "autoload": {
         
         "psr-4": {
-            "Tonmoynandy\\Signme\\": "src"
+            "BinsSoft\\Signme\\": "src"
         }
     },
     "minimum-stability": "dev",
