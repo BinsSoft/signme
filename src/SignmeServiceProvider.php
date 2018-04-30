@@ -15,11 +15,12 @@ class SignmeServiceProvider extends ServiceProvider
     public function boot()
     {
         
-        $this->mapRoute();
+        //$this->mapRoute();
         $this->publishes([
             __DIR__.'/views'            => base_path('resources/views/'),
             __DIR__.'/Controllers'      => base_path('app/Http/Controllers'),
-            __DIR__.'/config'           => base_path('config'),
+            //__DIR__.'/config'           => base_path('config'),
+            __DIR__.'/routes'           => base_path('routes'),
            
         ]);
     }
