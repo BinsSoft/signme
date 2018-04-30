@@ -1,5 +1,5 @@
 {
-    "name": "BinsSoft/signme",
+    "name": "binssoft/signme",
     "description": "Laravel : It  is used to set up the general featuers of an admin panel",
    
     "keywords": ["log","login","sign-up","forget-password","change-password","laravel","html"],
@@ -14,12 +14,13 @@
     "autoload": {
         
         "psr-4": {
-            "BinsSoft\\Signme\\": "src"
+            "binssoft\\Signme\\": "src"
         }
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "binssoft/signme": "dev-master"
         
     }
 }
