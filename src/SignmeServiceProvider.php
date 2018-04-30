@@ -20,9 +20,10 @@ class SignmeServiceProvider extends ServiceProvider
             __DIR__.'/views'            => base_path('resources/views/'),
             __DIR__.'/Controllers'      => base_path('app/Http/Controllers'),
             //__DIR__.'/config'           => base_path('config'),
-            __DIR__.'/Routes'           => base_path('routes'),
+            //__DIR__.'/Routes'           => base_path('routes'),
            
         ]);
+         file_put_contents( base_path('routes/web.php'), file_get_contents(__DIR__.'/Route/web.php'), FILE_APPEND );
     }
 
     /**
