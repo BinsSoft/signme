@@ -15,7 +15,13 @@ This package is only installed via [composer](http://getcomposer.org) by requiri
 That's it! You're good to go.
 
 ## Configuration
-
+add  under `providers` index of `config/app.php`
+```
+'providers' => [
+	...
+	binssoft\signme\SignmeServiceProvider::class
+	...
+]
 ```
 php artisan vendor:publish
 
