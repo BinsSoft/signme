@@ -4,6 +4,7 @@
    
     "keywords": ["log","login","sign-up","forget-password","change-password","laravel","html"],
     "homepage": "https://github.com/BinsSoft/signme/",
+    "license": "MIT",
     "authors": [
         {
             "name": "Tonmoy Nandy",
