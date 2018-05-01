@@ -32,8 +32,8 @@ class SignmeServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $configPath = dirname(__FILE__) . '/config/signme.php';
-        $this->mergeConfigFrom($configPath, 'signme');
+        //$configPath = dirname(__FILE__) . '/config/signme.php';
+        //$this->mergeConfigFrom($configPath, 'signme');
     }
 
     
